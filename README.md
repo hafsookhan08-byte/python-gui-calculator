@@ -20,18 +20,13 @@ A simple desktop calculator built with Python and Tkinter. It gives users a clea
 ```
 python-gui-calculator/
 ├── README.md
-├── calc.py
-├── requirements.txt
-└── screenshot.png
+└── calc.py
 ```
 
 ## Installation and Setup
 1. Install Python 3 from [python.org](https://www.python.org/downloads/) if you don't have it.
 2. Download or clone this project folder.
-3. Install the requirements (there are none for this project, but the file is included for completeness):
-   ```
-   pip install -r requirements.txt
-   ```
+3. No extra libraries are needed, because Tkinter comes with Python.
 
 ## How to Run
 Open a terminal in the project folder and run:
@@ -39,6 +34,10 @@ Open a terminal in the project folder and run:
 python calc.py
 ```
 The calculator window will open.
+
+## Example Output
+A small calculator window opens with number buttons, operator buttons and a display at the top. Click the buttons to enter a calculation and see the result.
+
 ## Future Improvements
 - Add scientific functions (square root, power, trigonometry)
 - Add keyboard input support
